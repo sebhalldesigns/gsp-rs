@@ -1,0 +1,16 @@
+[package]
+name = "gsp-rs"
+description = "Rust bindings for the OpenGSP project"
+documentation = "https://opengsp.org/docs"
+version = "0.0.1"
+edition = "2021"
+repository = "https://github.com/sebhalldesigns/gsp-rs"
+homepage = "https://opengsp.org/"
+license-file = "LICENSE"
+build = "build.rs"
+
+[dependencies]
+lazy_static = "1.5.0"
+libc = "0.2.155"
+libloading = "0.8.5"
+
